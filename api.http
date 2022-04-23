@@ -1,0 +1,11 @@
+@host = http://localhost:5028
+
+### get
+GET {{host}}/books
+Content-Type: application/json
+
+### post
+POST {{host}}/books
+Content-Type: application/json
+
+{}
